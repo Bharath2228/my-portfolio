@@ -1,0 +1,27 @@
+.certificates__container{
+    grid-template-columns: repeat(3, 270px);
+    justify-content: center;
+    column-gap: 1.8rem;
+}
+
+.certificate__panel{
+    max-width: 24rem; /* 384px */
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: val(--container-color);
+    border-radius: 1.25rem;
+}
+
+.certificate__img{
+    border-radius: 1.25rem 1.25rem 0 0;
+}
+
+.certificate__title{
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: var(--title-color);
+}
+
+.certificate__description{
+    color: val(--container-color);
+    font-size: 0.75rem;
+}
