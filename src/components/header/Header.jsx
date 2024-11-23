@@ -27,8 +27,8 @@ export const Header = () => {
               </a>
             </li>
             <li className="nav__item">
-              <a href="#services" className="nav__link">
-                <i className="uil uil-briefcase-alt nav__icon"></i> Services
+              <a href="#certificates" className="nav__link">
+                <i className="uil uil-briefcase-alt nav__icon"></i> Certificates
               </a>
             </li>
             <li className="nav__item">

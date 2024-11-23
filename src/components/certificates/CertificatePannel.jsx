@@ -1,21 +1,23 @@
 import React from 'react';
 
-export const CertificatePannel = ({ image, title, description }) => {
+export const CertificatePannel = ({ image, file, title, description }) => {
   return (
     <div className="certificate__panel">
-      <a href="#">
         <img className="certificate__img" src={image} alt={title} />
-      </a>
-      <div className="p-5">
-        <a href="#">
-          <h5 className="certificate__title">
-            {title}
-          </h5>
-        </a>
-        <p className="certificate__description mb-3">
+      <div className='p-5'>
+        <h5 className="certificate__title">
+          {title}
+        </h5>
+        <p className="certificate__description">
           {description}
         </p>
       </div>
+
+      <div className='certificate_title_btn'>        
+          <a href={file}  target="_blank" rel="noopener noreferrer" >
+          <button >View Certifiacte</button></a>
+        </div>
+
     </div>
   );
 };

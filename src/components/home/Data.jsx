@@ -55,7 +55,7 @@ export const Data = () => {
         </svg>
         </h1>
         <h3 className="home__subtitle">Software Engineer - Developer</h3>
-        <p className="home__description">I'm a Full Stack Developer based in Bengaluru, India, and currently working in Boeing as a Software Engineer - Developer</p>
+        <p className="home__description">I am a Full Stack Developer from Bengaluru, India, currently working as a Software Engineer - Developer at Boeing.</p>
 
         <a href="#contact" className="button button--flex">
             Say Hello
