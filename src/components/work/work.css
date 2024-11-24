@@ -21,7 +21,7 @@
   }
   
   .work__container {
-    grid-template-columns: repeat(2, max-content);
+    grid-template-columns: repeat(3, max-content);
     gap: 3rem;
     justify-content: center;
   }
@@ -29,19 +29,22 @@
   .work__card {
     background-color: var(--container-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 1.25rem;
+    padding: 1rem;
     border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   
   .work__img {
     width: 295px;
     border-radius: 1rem;
-    margin-bottom: var(--mb-1);
   }
   
   .work__title {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
+    margin-top: var(--mb-0-5);
     margin-bottom: var(--mb-0-5);
   }
   

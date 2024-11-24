@@ -1,7 +1,12 @@
-import Work1 from '../../assets/work1.jpg'
-import Work2 from '../../assets/work2.jpg'
-import Work3 from '../../assets/work3.jpg'
-import Work4 from '../../assets/work4.jpg'
+import Work1 from '../../assets/e-code.png'
+import Work2 from '../../assets/film.png'
+import Work3 from '../../assets/to-do.png'
+import Work4 from '../../assets/weather.png'
+import Work5 from '../../assets/calculator.png'
+import Work6 from '../../assets/lifi.png'
+import Work7 from '../../assets/sis.png'
+import Work8 from '../../assets/e-code.png'
+import Work9 from '../../assets/phototherapy.png'
 
 export const projectsData = [
     {
@@ -42,7 +47,7 @@ export const projectsData = [
     },
     {
         id: 5,
-        image: Work4,
+        image: Work5,
         title: "Web-Calculator",
         category: "Web",
         demo: "yes",
@@ -51,31 +56,31 @@ export const projectsData = [
     },
     {
         id: 6,
-        image: Work4,
+        image: Work6,
         title: "Data Transmission using Li-Fi",
         category: "others",
         github: "https://github.com/Bharath2228/The-Data-Transmission-Technique-Using-Low-Cost-Li-Fi"
     },
     {
         id: 7,
-        image: Work4,
+        image: Work9,
+        title: "Phototherapy (Image Processing)",
+        category: "others",
+        github: "https://github.com/Bharath2228/Automation-of-Phototherapy-for-Neonatal-Jaundice-Detection"
+    },
+    {
+        id: 8,
+        image: Work7,
         title: "Student Information System (SIS)",
         category: "app",
         github: "https://github.com/Bharath2228/student-information-system-SIS"
     },
     {
-        id: 8,
-        image: Work4,
+        id: 9,
+        image: Work8,
         title: "E-CoderShelf (Mock Server)",
         category: "others",
         github: "https://github.com/Bharath2228/e-codershelf-mock-server"
-    },
-    {
-        id: 9,
-        image: Work4,
-        title: "Automation of Phototherapy",
-        category: "others",
-        github: "https://github.com/Bharath2228/Automation-of-Phototherapy-for-Neonatal-Jaundice-Detection"
     }
 ];
 
