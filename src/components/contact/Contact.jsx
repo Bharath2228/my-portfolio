@@ -5,7 +5,7 @@ import './contact.css'
 const Contact = () => {
     const form = useRef();
 
-    const sendEmail = (e) => {
+    (e) => {
         e.preventDefault();
 
         emailjs.sendForm('service_78vvvcn', 'template_hwqx4jm', form.current, '7I64h34u3UhJnNGIH')
