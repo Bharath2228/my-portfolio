@@ -1,7 +1,7 @@
 import React from 'react';
 import "./about.css";
 import AboutImg from "../../assets/Profile-Pic.png";
-import CV from "../../assets/Bharath's Resume.pdf";
+import CV from "../../assets/Bharath's CV 2.pdf";
 import { Info } from './Info';
 
 export const About = () => {
@@ -18,9 +18,9 @@ export const About = () => {
                 <p className="about__description">
                 I am a Full Stack Developer skilled in software development, database management, and modern web technologies. I focus on creating efficient, user-friendly solutions by integrating robust back-end logic with intuitive front-end designs.
                 </p>
-                <a href={CV} target='_blank' className="button button--flex">Download CV
+                <a href={CV} target='_blank' rel="noreferrer" className="button button--flex">Download CV
                     <svg
-                    class="button__icon"
+                    className="button__icon"
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"

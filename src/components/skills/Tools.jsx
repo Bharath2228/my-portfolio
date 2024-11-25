@@ -3,7 +3,7 @@ import React from 'react'
 export const Tools = () => {
     return (
         <div className="skills__content">
-            <h3 className="skills__title">Backend Developer</h3>
+            <h3 className="skills__title">Software & Tools</h3>
 
             <div className="skills__box">
                 <div className="skills__group">
@@ -11,7 +11,16 @@ export const Tools = () => {
                         <i className='bx bx-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name">Python</h3>
+                            <h3 className="skills__name">Git</h3>
+                            <span className="skills__level">Intermediate</span>
+                        </div>
+                    </div>
+
+                    <div className="skills__data">
+                        <i className='bx bx-badge-check'></i>
+
+                        <div>
+                            <h3 className="skills__name">PyCharm</h3>
                             <span className="skills__level">Intermediate</span>
                         </div>
                     </div>
@@ -20,7 +29,7 @@ export const Tools = () => {
                         <i className='bx bx-badge-check' ></i>
 
                         <div>
-                            <h3 className="skills__name">SQL</h3>
+                            <h3 className="skills__name">VS Code</h3>
                             <span className="skills__level">Intermediate</span>
                         </div>
                     </div>
@@ -29,19 +38,49 @@ export const Tools = () => {
                         <i className='bx bx-badge-check' ></i>
 
                         <div>
-                            <h3 className="skills__name">MySQL</h3>
+                            <h3 className="skills__name">MATLAB</h3>
+                            <span className="skills__level">Basic</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="skills__group">
+                    <div className="skills__data">
+                        <i className='bx bx-badge-check'></i>
+
+                        <div>
+                            <h3 className="skills__name">Arduino</h3>
                             <span className="skills__level">Intermediate</span>
                         </div>
                     </div>
 
                     <div className="skills__data">
-                        <i className='bx bx-badge-check' ></i>
+                        <i className='bx bx-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name">MSSQL</h3>
+                            <h3 className="skills__name">Figma</h3>
+                            <span className="skills__level">Basic</span>
+                        </div>
+                    </div>
+
+                    <div className="skills__data">
+                        <i className='bx bx-badge-check'></i>
+
+                        <div>
+                            <h3 className="skills__name">PLC</h3>
                             <span className="skills__level">Intermediate</span>
                         </div>
                     </div>
+
+                    <div className="skills__data">
+                        <i className='bx bx-badge-check'></i>
+
+                        <div>
+                            <h3 className="skills__name">LabView</h3>
+                            <span className="skills__level">Intermediate</span>
+                        </div>
+                    </div>
+
                 </div>
 
             </div>

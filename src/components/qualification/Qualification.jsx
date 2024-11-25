@@ -23,7 +23,7 @@ export const Qualification = () => {
                         }
                         onClick={() => toggleTab(1)}
                     >
-                        <i className="uil uil-graduation-cap qualification__icon"></i> Education
+                        <i className="uil uil-graduation-cap qualification__icon"></i> Experience
                     </div>
 
                     <div
@@ -34,14 +34,14 @@ export const Qualification = () => {
                         }
                         onClick={() => toggleTab(2)}
                     >
-                        <i className="uil uil-briefcase-alt qualification__icon"></i> Experience
+                        <i className="uil uil-briefcase-alt qualification__icon"></i> Education
                     </div>
                 </div>
 
                 <div className="qualification__sections">
                     <div
                         className={
-                            toggleState === 1
+                            toggleState === 2
                                 ? "qualification__content qualification__content-active"
                                 : "qualification__content"
                         }
@@ -99,7 +99,7 @@ export const Qualification = () => {
 
                     <div
                         className={
-                            toggleState === 2
+                            toggleState === 1
                                 ? "qualification__content qualification__content-active"
                                 : "qualification__content"
                         }
@@ -131,6 +131,7 @@ export const Qualification = () => {
                             <div>
                                 <h3 className="qualification__title">Intern</h3>
                                 <span className="qualification__subtitle">Bosch Limited</span>
+                                <span className="qualification__subtitle">Ramanagara, India </span>
                                 <div className="qualification__calender">
                                     <i className="uil uil-calendar-alt"></i> 2023
                                 </div>

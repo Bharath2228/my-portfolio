@@ -13,6 +13,7 @@ export const Skills = () => {
             <div className="skills__container container grid">
                 <Frontend />
                 <Backend />
+                <Tools />
             </div>
         </section>
     )
