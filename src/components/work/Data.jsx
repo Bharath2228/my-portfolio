@@ -59,28 +59,28 @@ export const projectsData = [
         image: Work6,
         title: "Data Transmission using Li-Fi",
         category: "others",
-        github: "https://github.com/Bharath2228/The-Data-Transmission-Technique-Using-Low-Cost-Li-Fi"
+        link: "https://github.com/Bharath2228/The-Data-Transmission-Technique-Using-Low-Cost-Li-Fi"
     },
     {
         id: 7,
         image: Work9,
         title: "Phototherapy (Image Processing)",
         category: "others",
-        github: "https://github.com/Bharath2228/Automation-of-Phototherapy-for-Neonatal-Jaundice-Detection"
+        link: "https://github.com/Bharath2228/Automation-of-Phototherapy-for-Neonatal-Jaundice-Detection"
     },
     {
         id: 8,
         image: Work7,
         title: "Student Information System (SIS)",
         category: "app",
-        github: "https://github.com/Bharath2228/student-information-system-SIS"
+        link: "https://github.com/Bharath2228/student-information-system-SIS"
     },
     {
         id: 9,
         image: Work8,
         title: "E-CoderShelf (Mock Server)",
         category: "others",
-        github: "https://github.com/Bharath2228/e-codershelf-mock-server"
+        link: "https://github.com/Bharath2228/e-codershelf-mock-server"
     }
 ];
 
