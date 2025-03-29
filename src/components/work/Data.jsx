@@ -57,29 +57,29 @@ export const projectsData = [
     {
         id: 6,
         image: Work6,
-        title: "Data Transmission using Li-Fi",
-        category: "others",
+        title: "The Data Transmission Technique using Li-Fi",
+        category: "B.E Projects",
         link: "https://github.com/Bharath2228/The-Data-Transmission-Technique-Using-Low-Cost-Li-Fi"
     },
     {
         id: 7,
         image: Work9,
         title: "Automation of Phototherapy",
-        category: "others",
+        category: "B.E Projects",
         link: "https://github.com/Bharath2228/Automation-of-Phototherapy-for-Neonatal-Jaundice-Detection"
     },
     {
         id: 8,
         image: Work7,
         title: "Student Information System (SIS)",
-        category: "app",
+        category: "B.E Projects",
         link: "https://github.com/Bharath2228/student-information-system-SIS"
     },
     {
         id: 9,
         image: Work8,
         title: "E-CoderShelf (Mock Server)",
-        category: "others",
+        category: "Web",
         link: "https://github.com/Bharath2228/e-codershelf-mock-server"
     }
 ];
@@ -95,6 +95,6 @@ export const projectsNav = [
         name: 'app',
     },
     {
-        name: 'others'
+        name: 'B.E Projects'
     }
 ];
