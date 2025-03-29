@@ -64,7 +64,7 @@ export const projectsData = [
     {
         id: 7,
         image: Work9,
-        title: "Phototherapy (Image Processing)",
+        title: "Automation of Phototherapy",
         category: "others",
         link: "https://github.com/Bharath2228/Automation-of-Phototherapy-for-Neonatal-Jaundice-Detection"
     },
