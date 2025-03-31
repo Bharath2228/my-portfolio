@@ -14,6 +14,9 @@ import whatData from "../../assets/Certifiactes/What is Data Science.pdf"
 import VBA from "../../assets/Certifiactes/VB for Microsoft Excel.pdf"
 import coursera_python from "../../assets/Certifiactes/Coursera Python.pdf"
 import dataStruct from "../../assets/Certifiactes/Udemy C++.pdf"
+import vlsiCert from "../../assets/Certifiactes/VLSI.pdf"
+import cyberCert from "../../assets/Certifiactes/Cyber Pyhiscal Systems.pdf"
+import tekCert from "../../assets/Certifiactes/TEKWARZZ.pdf"
 
 export const Certificates = () => {
   const certificates = [
@@ -24,10 +27,28 @@ export const Certificates = () => {
       description: "AWS Training and Certification"
     },
     {
-      image: "https://www.datascience.movie/wp-content/uploads/2019/09/Documentary-Title-Facebook-1200x630.jpg",
-      file: dataOrien,
-      title: "Data Science Orientation",
-      description: "IBM"
+      image: "https://snu.edu.in/site/assets/files/14223/38515.1600x0.webp",
+      file: vlsiCert,
+      title: "VLSI Design Gates to IC's (Workshop)",
+      description: "Ramaiah Institute of Technology"
+    },
+    {
+      image: "https://assets.everspringpartners.com/dims4/default/03f1dd6/2147483647/strip/true/crop/476x250+72+0/resize/1200x630!/quality/90/?url=http%3A%2F%2Feverspring-brightspot.s3.us-east-1.amazonaws.com%2Ffb%2F75%2F1819f4ee4ed3ab19703fa980776f%2F19344-seattlemsba-introtopython.jpg",
+      file: python,
+      title: "Python Programming",
+      description: "O'Reilly"
+    },
+    {
+      image: "https://bigblue.academy/images/thumb/blog/what-is-sql-and-how-does-it-work-(2023)/sql-1200x630.jpg",
+      file: sql,
+      title: "SQL with Microsoft SQL Server",
+      description: "O'Reilly"
+    },
+    {
+      image: "https://www.spiralytics.com/wp-content/uploads/2022/10/Google-Helpful-Content-Update1-1200x630.jpg",
+      file: google,
+      title: "Technical Support Fundamentals",
+      description: "Coursera"
     },
     {
       image: "https://cdn.sanity.io/images/8edntncj/production/0b5634b00998cd9c85c300ebd66962b4555d6b84-1200x630.png",
@@ -36,27 +57,33 @@ export const Certificates = () => {
       description: "IBM"
     },
     {
+      image: "https://miro.medium.com/v2/resize:fit:1400/1*J38nYZU7gzu-4lQmtjlSUw.jpeg",
+      file: dataStruct,
+      title: "Data Structures & Algorithms Essentials using C++ (2022)",
+      description: "Udemy"
+    },
+    {
+      image: "https://media.licdn.com/dms/image/v2/D4D12AQFNsBbXzyyJtw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1697039142374?e=2147483647&v=beta&t=cix12BAjTyqGjcSLnFXUgySRWNbOnFcHQMHaUEOJmSA",
+      file: cyberCert,
+      title: "Cyber Physical Systems",
+      description: "IEEE Seminar - Ramaiah Institute of Technology"
+    },
+    {
+      image: "https://amtrustfinancial.com/getmedia/6e3ee407-025d-4716-8f6a-79dd7df03b4c/GettyImages-1172324608-2023-PLUS-Symposium-for-D-O-1200-x-630-min.jpg",
+      file: tekCert,
+      title: "National Level Technical Symposium",
+      description: "TEKWARZZ - P.S.V College of Engineering"
+    },
+    {
+      image: "https://www.datascience.movie/wp-content/uploads/2019/09/Documentary-Title-Facebook-1200x630.jpg",
+      file: dataOrien,
+      title: "Data Science Orientation",
+      description: "IBM"
+    },
+    {
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTRQKP9pRkKKsSY6lQEgDo69k-s-vF7aB3cA&s",
         file: chatgpt,
         title: "Effective ChatGPT Prompts",
-        description: "O'Reilly"
-      },
-      {
-        image: "https://www.spiralytics.com/wp-content/uploads/2022/10/Google-Helpful-Content-Update1-1200x630.jpg",
-        file: google,
-        title: "Technical Support Fundamentals",
-        description: "Coursera"
-      },
-      {
-        image: "https://assets.everspringpartners.com/dims4/default/03f1dd6/2147483647/strip/true/crop/476x250+72+0/resize/1200x630!/quality/90/?url=http%3A%2F%2Feverspring-brightspot.s3.us-east-1.amazonaws.com%2Ffb%2F75%2F1819f4ee4ed3ab19703fa980776f%2F19344-seattlemsba-introtopython.jpg",
-        file: python,
-        title: "Python Programming",
-        description: "O'Reilly"
-      },
-      {
-        image: "https://bigblue.academy/images/thumb/blog/what-is-sql-and-how-does-it-work-(2023)/sql-1200x630.jpg",
-        file: sql,
-        title: "SQL with Microsoft SQL Server",
         description: "O'Reilly"
       },
       {
@@ -88,13 +115,7 @@ export const Certificates = () => {
         file: lab,
         title: "Industrial Automation Based Professional Training Program",
         description: "LabVIEW"
-      },
-      {
-        image: "https://miro.medium.com/v2/resize:fit:1400/1*J38nYZU7gzu-4lQmtjlSUw.jpeg",
-        file: dataStruct,
-        title: "Data Structures & Algorithms Essentials using C++ (2022)",
-        description: "Udemy"
-      },
+      }
   ];
 
   const [visibleCertificates, setVisibleCertificates] = useState(certificates.slice(0, 5));
@@ -111,7 +132,7 @@ export const Certificates = () => {
 
   return (
     <section className="section" id='certificates'>
-      <h2 className="section__title">Certificates</h2>
+      <h2 className="section__title">Certificates & Achievements</h2>
       <span className="section__subtitle">My Accomplishments</span>
       <div className="certificates__container container grid">
         {visibleCertificates.map((cert, index) => (
@@ -129,8 +150,6 @@ export const Certificates = () => {
           </p>
         </div>
       </div>
-
-      {/* View More / View Less Button */}
 
     </section>
   );

@@ -57,7 +57,7 @@ export const projectsData = [
     {
         id: 6,
         image: Work6,
-        title: "The Data Transmission Technique using Li-Fi",
+        title: "Data Transmission using Li-Fi",
         category: "B.E Projects",
         link: "https://github.com/Bharath2228/The-Data-Transmission-Technique-Using-Low-Cost-Li-Fi"
     },
@@ -90,9 +90,6 @@ export const projectsNav = [
     },
     {
         name: 'Web',
-    },
-    {
-        name: 'app',
     },
     {
         name: 'B.E Projects'
